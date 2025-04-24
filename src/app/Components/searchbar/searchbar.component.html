@@ -1,0 +1,29 @@
+<ion-toolbar class="toolbar-searchbar">
+  <ion-searchbar class="searchBar"
+                 show-clear-button="focus"
+                 [(ngModel)]="searchText"
+                 (ionInput)="filterItems()"
+                 (ionFocus)="onSearchFocus()"
+                 placeholder="Search for a farm...">
+  </ion-searchbar>
+  <div class="list-searchbar" *ngIf="showList">
+    <ion-button expand="block" color="medium" (click)="closeList()">
+      Close the list
+    </ion-button>
+    <div class="loading-container" *ngIf="isLoading">
+      <ion-spinner name="crescent" class="spinner"></ion-spinner>
+      <p>Loading the farms...</p>
+    </div>
+
+    <ion-list *ngIf="!isLoading" class="list-search">
+      <ion-item
+                class="item-search"
+                button
+                [lines]="last ? 'none' : 'full'"
+                *ngFor="let farm of filteredFarms; let last = last"
+                (click)="onItemSelected(farm)">
+        {{ farm.name }} ({{ farm.lands.length }} lands)
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-toolbar>

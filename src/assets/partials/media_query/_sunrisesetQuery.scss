@@ -1,0 +1,230 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .card-sun{
+    height: 180px;
+    margin-top: 20px;
+    .container-sun{
+      margin-top: 20px;
+      .sun-time{
+        font-weight: bold;
+        ion-label:first-child{
+          font-size: 1.5rem;
+        }
+        ion-label:last-child{
+          font-size: 0.8rem;
+        }
+      }
+      .sunrise{
+        .sunrise-icon{
+          margin-top: 25px;
+        }
+      }
+      .sunset{
+        .sunset-icon{
+          margin-top: 25px;
+        }
+      }
+      ion-icon{
+        font-size: 3rem;
+      }
+      // translate
+      .sunrise-icon::after, .sunset-icon::after {
+        bottom: 8px;
+        width: 100%;
+        height: 1px;
+      }
+      @keyframes sunrise {
+        0% {
+          transform: translateY(20px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      @keyframes sunset {
+        0% {
+          transform: translateY(0px);
+        }
+        100% {
+          transform: translateY(20px);
+        }
+      }
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .card-sun{
+    height: 250px;
+    margin-top: 25px;
+    .container-sun{
+      margin-top: 20px;
+      .sun-time{
+        font-weight: bold;
+        ion-label:first-child{
+          font-size: 1.8rem;
+        }
+        ion-label:last-child{
+          font-size: 1rem;
+        }
+      }
+      .sunrise{
+        .sunrise-icon{
+          margin-top: 40px;
+        }
+      }
+      .sunset{
+        .sunset-icon{
+          margin-top: 40px;
+        }
+      }
+      ion-icon{
+        font-size: 4rem;
+      }
+      // translate
+      .sunrise-icon::after, .sunset-icon::after {
+        bottom: 10px;
+        width: 100%;
+        height: 1px;
+      }
+      @keyframes sunrise {
+        0% {
+          transform: translateY(30px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      @keyframes sunset {
+        0% {
+          transform: translateY(0px);
+        }
+        100% {
+          transform: translateY(30px);
+        }
+      }
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .card-sun{
+    height: 330px;
+    margin-top: 30px;
+    .container-sun{
+      margin-top: 25px;
+      .sun-time{
+        font-weight: bold;
+        ion-label:first-child{
+          font-size: 2.5rem;
+        }
+        ion-label:last-child{
+          font-size: 1.5rem;
+        }
+      }
+      .sunrise{
+        .sunrise-icon{
+          margin-top: 40px;
+        }
+      }
+      .sunset{
+        .sunset-icon{
+          margin-top: 40px;
+        }
+      }
+      ion-icon{
+        font-size: 5rem;
+      }
+      // translate
+      .sunrise-icon::after, .sunset-icon::after {
+        bottom: 10px;
+        width: 100%;
+        height: 2px;
+      }
+      @keyframes sunrise {
+        0% {
+          transform: translateY(40px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      @keyframes sunset {
+        0% {
+          transform: translateY(0px);
+        }
+        100% {
+          transform: translateY(40px);
+        }
+      }
+    }
+  }
+}
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card-sun{
+    margin-top: 30px;
+    .container-sun{
+      margin-top: 45px;
+      .sun-time{
+        ion-label:first-child{
+          font-size: 2.8rem;
+        }
+        ion-label:last-child{
+          font-size: 1.8rem;
+        }
+      }
+      .sunrise{
+        .sunrise-icon{
+          margin-top: 60px;
+        }
+      }
+      .sunset{
+        .sunset-icon{
+          margin-top: 60px;
+        }
+      }
+      ion-icon{
+        font-size: 7rem;
+      }
+      // translate
+      .sunrise-icon::after, .sunset-icon::after {
+        bottom: 10px;
+        width: 100%;
+        height: 2px;
+      }
+      @keyframes sunrise {
+        0% {
+          transform: translateY(60px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      @keyframes sunset {
+        0% {
+          transform: translateY(0px);
+        }
+        100% {
+          transform: translateY(60px);
+        }
+      }
+    }
+  }
+}

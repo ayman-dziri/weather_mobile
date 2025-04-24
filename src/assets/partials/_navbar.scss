@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  .toolbar-navbar {
+    --background: $body-color;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+  }
+  .menu{
+    width: auto;
+    font-size: 2rem;
+    ion-buttons{
+      ion-menu-button{
+      }
+    }
+  }
+  .searchbar-container {
+    width: 100%;
+    padding-left: 50px;
+  }
+  app-searchbar{
+    width: 100%;
+  }
+}

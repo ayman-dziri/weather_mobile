@@ -1,0 +1,112 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .login-content{
+    .form{
+      width: 90%;
+      margin: auto;
+      margin-top: 80px;
+      .logo_login {
+        img {
+          width: 140px;
+          height: 120px;
+        }
+        ion-label {
+          margin-top: 80px;
+          font-size: 1.5rem;
+        }
+      }
+      ion-input{
+        margin-top: 0.5rem;
+      }
+      ion-button{
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+  .login-content{
+    .form{
+      width: 80%;
+      margin: auto;
+      margin-top: 100px;
+      .logo_login {
+        img {
+          margin-top: 50px;
+          width: 180px;
+          height: 150px;
+        }
+        ion-label {
+          font-size: 2rem;
+        }
+      }
+      ion-input{
+        margin-top: 0.5rem;
+      }
+      ion-button{
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .login-content{
+    .form{
+      margin: auto;
+      margin-top: 30px;
+      .logo_login {
+        img {
+          margin-top: 50px;
+          width: 200px;
+          height: 150px;
+        }
+        ion-label {
+          font-size: 2rem;
+        }
+      }
+      ion-input{
+        margin-top: 0.5rem;
+      }
+      ion-button{
+        margin-top: 1rem;
+      }
+    }
+  }
+
+}
+
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .login-content{
+    .form{
+      .logo_login {
+        img {
+          width: 250px;
+          height: 200px;
+        }
+        ion-label {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}

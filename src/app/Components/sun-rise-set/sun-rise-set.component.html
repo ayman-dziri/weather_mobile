@@ -1,0 +1,24 @@
+<ion-card class="card-sun">
+  <div class="container-sun">
+    <div class="sunrise">
+      <div class="sun-time">
+        <ion-label>sunrise</ion-label>
+        <ion-label>{{ sunrise | date:'HH:mm' }}</ion-label>
+      </div>
+      <div class="sunrise-icon">
+        <ion-icon name="sunny"></ion-icon>
+      </div>
+    </div>
+
+    <div class="sunset">
+      <div class="sun-time">
+        <ion-label>sunset</ion-label>
+        <ion-label>{{ sunset | date:'HH:mm' }}</ion-label>
+      </div>
+      <div class="sunset-icon">
+        <ion-icon name="sunny"></ion-icon>
+      </div>
+    </div>
+
+  </div>
+</ion-card>

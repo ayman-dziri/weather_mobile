@@ -1,0 +1,118 @@
+.sidebar-content {
+  --background: #2a3045;
+  height: 100%;
+  color: white;
+  ion-button[slot='fixed'] {
+    top: 100%;
+    left: 20px;
+  }
+
+  ion-toolbar {
+    --background: transparent;
+    --color: white;
+    --border-width: 0;
+    padding-top: 15px;
+
+    ion-title {
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  .sidebar-profile {
+    position: relative;
+    padding: 20px 0;
+    margin: 0 15px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 15%;
+      right: 15%;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .picture-wrapper {
+      .user-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin: 0 auto 15px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .profile-details {
+      .name {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 4px;
+        color: white;
+      }
+
+      .role {
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  ion-list {
+    background: transparent;
+    padding-top: 15px;
+
+    ion-item {
+      --background: transparent;
+      --color: rgba(255, 255, 255, 0.9);
+      --padding-start: 20px;
+      --padding-end: 20px;
+      --min-height: 50px;
+      margin-bottom: 5px;
+
+      ion-icon {
+        color: $sun-color;
+        font-size: 1.2rem;
+        margin-right: 15px;
+      }
+
+      ion-label {
+        font-weight: 400;
+        letter-spacing: 0.3px;
+      }
+
+      &.selected {
+        --background: rgba(246, 184, 68, 0.1);
+        border-left: 4px solid $sun-color;
+
+        ion-label {
+          font-weight: 500;
+          color: white;
+        }
+
+        ion-icon {
+          color: $sun-color;
+        }
+      }
+
+      &:hover:not(.selected) {
+        --background: rgba(255, 255, 255, 0.05);
+      }
+    }
+  }
+
+}
+ion-item {
+  transition: all 0.3s ease;
+}

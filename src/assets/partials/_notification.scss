@@ -1,0 +1,22 @@
+.notification-modal {
+  --width: 80%;
+  --height: 60%;
+  --border-radius: 10px;
+  --background: rgba(234, 234, 234);
+  &::part(backdrop) {
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+.notification-header {
+  .notification-toolbar {
+    --background: #3d4465;
+    .notification-span{
+      font-size: 1rem;
+    }
+  }
+}
+.ion-padding {
+  p {
+    color: #0d0d0d;
+  }
+}

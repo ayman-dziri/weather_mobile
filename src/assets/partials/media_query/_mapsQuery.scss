@@ -1,0 +1,51 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .card-maps{
+    height: 180px;
+    margin-top: 20px;
+    ion-header{
+      ion-title{
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .card-maps{
+    height: 250px;
+    margin-top: 20px;
+    ion-header{
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .card-maps{
+    height: 330px;
+    margin-top: 30px;
+    ion-header{
+    }
+  }
+}
+
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}

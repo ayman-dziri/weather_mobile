@@ -1,0 +1,16 @@
+<ion-header class="notification-header">
+  <ion-toolbar class="notification-toolbar">
+    <ion-chip [disabled]="true">
+      <ion-title class="notification-span">
+        your notification for today
+      </ion-title>
+    </ion-chip>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()" class="notification-span">Fermer</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p>{{ message }}</p>
+</ion-content>

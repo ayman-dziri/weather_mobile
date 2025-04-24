@@ -1,0 +1,46 @@
+@import "./partials/variables";
+@import "partials/navbar";
+@import "partials/searchbar";
+@import "./partials/current";
+@import "./partials/hourly";
+@import "./partials/daily";
+@import "partials/home";
+@import "./partials/sidebar";
+@import "partials/sunriseset";
+@import "partials/maps";
+@import "partials/login";
+@import "partials/notification";
+
+
+@import "./partials/media_query/currentQuery";
+@import "partials/media_query/navbarQuery";
+@import "partials/media_query/sidebarQuery";
+@import "partials/media_query/hourlyQuery";
+@import "partials/media_query/dailyQuery";
+@import "partials/media_query/homeQuery";
+@import "partials/media_query/sunrisesetQuery";
+@import "partials/media_query/mapsQuery";
+@import "partials/media_query/notificationQuery";
+@import "partials/media_query/loginQuery";
+
+
+
+
+body {
+  margin: 0;
+  background-color: $greenAppColor;
+  font-family: montserrat;
+}
+@font-face{
+  font-family: montserrat;
+  src: url("~src/assets/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+ion-app {
+  .wrapper {
+    height: 100%;
+  }
+  ion-content {
+    --background: $greenAppColor;
+  }
+}

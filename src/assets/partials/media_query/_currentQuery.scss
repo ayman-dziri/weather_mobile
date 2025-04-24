@@ -1,0 +1,212 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .content {
+    .current {
+      .header {
+        .current-temp-icone {
+          #degre{
+            font-size: 2.5rem;
+          }
+          ion-icon{
+            font-size: 3rem;
+          }
+        }
+        .lieu {
+          margin-top: 0.6rem;
+          .location {
+            font-size: 1rem;
+          }
+          #ville {
+            font-size: 1rem;
+          }
+        }
+      }
+      .feels_notification {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: initial;
+        .feels {
+          padding-left: 0.6rem;
+          font-size: 0.8rem;
+        }
+        .toolbar-current {
+          width: 35%;
+          .chip-current {
+            .badge-current {
+              font-size: 0.7rem;
+              --padding-end: 6px;
+              --padding-start: 6px;
+            }
+            ion-icon {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .content {
+    .current {
+      .header {
+        .current-temp-icone {
+          #degre{
+            font-size: 3rem;
+          }
+          ion-icon{
+            font-size: 4rem;
+          }
+        }
+        .lieu {
+          margin-top: 1rem;
+          .location {
+            font-size: 1.5rem;
+          }
+          #ville {
+            font-size: 1.2rem;
+          }
+
+        }
+      }
+      .feels_notification {
+        margin-top: 1.5rem;
+        align-items: initial;
+
+        .feels {
+          padding-left: 0.6rem;
+          font-size: 0.8rem;
+        }
+        .toolbar-current {
+          width: 28%;
+
+          .chip-current {
+            .badge-current {
+              font-size: 0.7rem;
+            }
+            ion-icon {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .content {
+    .current {
+      .header {
+        .current-temp-icone {
+        }
+        .current-temp-icone>*{
+          font-size: 5.5rem;
+        }
+        .lieu {
+          margin-top: 1.5rem;
+          .location {
+            font-size: 1.8rem;
+          }
+          #ville {
+            font-size: 3rem;
+          }
+        }
+      }
+      .feels_notification {
+        margin-top: 2rem;
+        .feels {
+          padding-left: 0.8rem;
+          font-size: 1rem;
+        }
+        .toolbar-current {
+          width: 17%;
+          .chip-current {
+            .badge-current {
+              font-size: 0.8rem;
+            }
+            ion-icon {
+              font-size: 25px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content {
+    .current {
+      .header {
+        .current-temp-icone {
+        }
+        .current-temp-icone>*{
+          font-size: 8rem;
+        }
+
+        .lieu {
+          margin-top: 2.5rem;
+
+          .location {
+            font-size: 2rem;
+          }
+
+          #ville {
+            font-size: 3.5rem;
+          }
+
+        }
+      }
+
+      .feels_notification {
+        margin-top: 3rem;
+
+        .feels {
+          padding-left: 0.9rem;
+          font-size: 1.2rem;
+
+          i {
+          }
+
+          span {
+          }
+        }
+
+        .toolbar-current {
+          width: 15%;
+
+          .chip-current {
+            .badge-current {
+              font-size: 0.8rem;
+            }
+
+            ion-icon {
+              font-size: 25px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

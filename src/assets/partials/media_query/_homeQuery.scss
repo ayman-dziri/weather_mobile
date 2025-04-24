@@ -1,0 +1,128 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .home-app {
+    .wrapper {
+    }
+    .nav-arrow {
+      width: 22px;
+      height: 22px;
+      ion-icon {
+        font-size: 15px;
+      }
+      &.disabled {
+        ion-icon {
+        }
+      }
+      &:hover {
+      }
+      &:active {
+      }
+    }
+    .left-arrow {
+      left: 2px;
+    }
+    .right-arrow {
+      right: 2px;
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .home-app {
+    .wrapper {
+    }
+    .nav-arrow {
+      width: 25px;
+      height: 25px;
+      ion-icon {
+        font-size: 18px;
+      }
+      &.disabled {
+        ion-icon {
+        }
+      }
+      &:hover {
+      }
+      &:active {
+      }
+    }
+    .left-arrow {
+      left: 3px;
+    }
+    .right-arrow {
+      right: 3px;
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .home-app {
+    .wrapper {
+    }
+    .nav-arrow {
+      width: 35px;
+      height: 35px;
+      ion-icon {
+        font-size: 22px;
+      }
+      &.disabled {
+        ion-icon {
+        }
+      }
+      &:hover {
+      }
+      &:active {
+      }
+    }
+    .left-arrow {
+      left: 5px;
+    }
+    .right-arrow {
+      right: 5px;
+    }
+  }
+}
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-app {
+    .wrapper {
+    }
+    .nav-arrow {
+      width: 40px;
+      height: 40px;
+      ion-icon {
+        font-size: 24px;
+      }
+      &.disabled {
+        ion-icon {
+        }
+      }
+      &:hover {
+      }
+      &:active {
+      }
+    }
+    .left-arrow {
+      left: 10px;
+    }
+    .right-arrow {
+      right: 10px;
+    }
+  }
+}

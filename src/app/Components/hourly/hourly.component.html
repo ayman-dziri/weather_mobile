@@ -1,0 +1,36 @@
+  <ion-card class="card-hourly">
+
+    <table>
+
+      <tr>
+        <td *ngFor="let hour of hourlyData; let i = index">
+          <div class="time_day">
+            <span id="time">{{hour.time}}</span>
+            <ion-icon name="{{getWeatherIconName(i)}}" class="{{getWeatherIconClass(i)}}" id="current-is-day"></ion-icon>
+
+          </div>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td *ngFor="let hour of hourlyData">
+          <div class="current-temp">
+        <span id="temperature_section">{{hour.temperature}}°</span>
+          </div>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td *ngFor="let hour of hourlyData" class="rain">
+          <div class="rain-group">
+            <ion-icon class="drop" name="water"></ion-icon>
+            <span id="pluie_percent_section">{{hour.precipitation}}%</span>
+          </div>
+        </td>
+      </tr>
+
+    </table>
+
+  </ion-card>

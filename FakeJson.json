@@ -1,0 +1,116 @@
+{
+  "User": 67890,
+  "Farm": 3,
+  "Land": 104,
+  "Plant": "tomato",
+  "WeatherConditions": {
+  "time": [
+    "2025-04-19",
+    "2025-04-20",
+    "2025-04-21",
+    "2025-04-22",
+    "2025-04-23",
+    "2025-04-24",
+    "2025-04-25"
+  ],
+  "temperature_2m_max": [
+    18.9,
+    17.5,
+    8.3,
+    21.9,
+    12.4,
+    21.4,
+    17.1
+  ],
+  "wind_speed_10m_max": [
+    19.6,
+    23.9,
+    14.9,
+    22,
+    13.5,
+    16.5,
+    21.9
+  ],
+  "precipitation_sum": [
+    1.1,
+    4.8,
+    0,
+    0,
+    0.3,
+    0.3,
+    0.9
+  ]
+},
+"GeneratedAdvices": [
+  {
+    "date": "2025-04-19",
+    "advice_en": "Day 1: With a gentle temperature of 18.9 °C, ensure your tomato plants are adequately watered since the precipitation is low. Be cautious of wind speed; support any tall or young plants to prevent damage. Check for any pests that could be more active in this weather.",
+    "advice_fr": "Jour 1 : Avec une température douce de 18,9 °C, assurez-vous que vos plants de tomates sont correctement arrosés car les précipitations sont faibles. Soyez prudent avec la vitesse du vent ; soutenez les plants hauts ou jeunes pour éviter des dommages. Vérifiez la présence de parasites qui pourraient être plus actifs par ce temps.",
+    "advice_ar": "اليوم الواحد: مع درجة حرارة خفيفة ديال ثمانية عشر فاصلة تسعة درجة مئوية، تأكد بلي طماطم ديالك مرطبين مزيان حيت التساقطات قليلة. راه خاصك تكون حذر من سرعة الرياح؛ دعم أي نباتات طويلة أو صغيرة باش متضرش. شيك على أي آفات لي ممكن تكون أكثر نشاط فهاذ الطقس.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:42:42"
+  },
+  {
+    "date": "2025-04-20",
+    "advice_en": "Day 2: The temperature drops slightly to 17.5 °C with increased precipitation. Watering should be minimal due to the rain; instead, focus on ensuring good drainage to prevent root rot. Keep an eye on the foliage for any signs of disease caused by the damp conditions.",
+    "advice_fr": "Jour 2 : La température baisse légèrement à 17,5 °C avec une augmentation des précipitations. L'arrosage devrait être minimal en raison de la pluie ; concentrez-vous plutôt sur l'assurance d'un bon drainage pour éviter la pourriture des racines. Surveillez le feuillage pour tout signe de maladie causée par les conditions humides.",
+    "advice_ar": "نهار جوج: الحرارة تنزل شوية حتى سبعتاش ونص °م مع زيادة فالهطول. السقاية خاصها تكون قليلة بسبب الشتا؛ بل خاصك تركز على ضمان تصريف مزيان باش تتفادى تسوس الجذور. راقب الأوراق على أي علامات ديال المرض بسبب الظروف الرطبة.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:43:25"
+  },
+  {
+    "date": "2025-04-21",
+    "advice_en": "Day 3: With a lower temperature of 8.3 °C and no precipitation, your tomato plants may be stressed. If they’re in pots, consider bringing them inside or covering them to protect from cold. Monitor for frost damage and avoid watering since the soil may remain cool and damp.",
+    "advice_fr": "Jour 3 : Avec une température minimale de 8,3 °C et sans précipitations, vos plants de tomates peuvent être stressés. S'ils sont en pots, envisagez de les rentrer à l'intérieur ou de les couvrir pour les protéger du froid. Surveillez les dommages causés par le gel et évitez d'arroser, car le sol peut rester frais et humide.",
+    "advice_ar": "اليوم ثلاثة: مع درجة حرارة أقل من ثمانية ثلاثة دَرجات مئوية و بلا تساقطات، ممكن تكون نباتات الطماطم ديالك متنكدين. إذا كانوا في الأصص، فكّر أنك تدخلهم للدار ولا تغطيهم باش تحميهم من البرد. راقب ضرر الصقيع و تجنب السقي حيث الأرض ممكن تبقى باردة و رطبة.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:44:08"
+  },
+  {
+    "date": "2025-04-22",
+    "advice_en": "Day 4: The temperature rises to a comfortable 21.9 °C, which is ideal for tomatoes. Make sure to provide sufficient water as it’s a dry day; deep watering in the morning is best. Check for any signs of pests or diseases now that conditions are favorable for growth.",
+    "advice_fr": "Jour 4 : La température monte à un confortable 21,9 °C, ce qui est idéal pour les tomates. Assurez-vous de fournir suffisamment d'eau car c'est une journée sèche ; un arrosage en profondeur le matin est recommandé. Vérifiez s'il y a des signes de ravageurs ou de maladies maintenant que les conditions sont favorables à la croissance.",
+    "advice_ar": "اليوم الربعة: درجة الحرارة كترتفع لواحد وعشرين فاصلة تسعة دَرجَة مئوية، لي هي مثالية للطماطم. تأكد من توفير الماء الكافي حيت اليوم جاف؛ اروي نباتاتك مزيان فالصباح أحسن. شوف واش كاينين شي علامات ديال الحشرات ولا الأمراض دابا حيت الظروف ملائمة للنمو.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:44:51"
+  },
+  {
+    "date": "2025-04-23",
+    "advice_en": "Day 5: With a cooler temperature at 12.4 °C, ensure your tomato plants are protected from any potential chilling effects. Watering should be limited as it's a cooler day, but be vigilant about soil moisture. A light layer of mulch can help retain heat around the roots.",
+    "advice_fr": "Jour 5 : Avec une température plus fraîche de 12,4 °C, assurez-vous que vos plants de tomates sont protégés des éventuels effets de refroidissement. L'arrosage doit être limité car c'est une journée plus fraîche, mais restez vigilant concernant l'humidité du sol. Une légère couche de paillis peut aider à retenir la chaleur autour des racines.",
+    "advice_ar": "اليوم خمسة: مع درجة حرارة أبرد عند اثنا عشر فاصل أربعة درجة مئوية، تأكد أن نباتات الطماطم ديالك محمية من أي آثار باردة محتملة. الري خاصو يكون محدود حيث النهار بارد، ولكن خليك واعي برطوبة التربة. طبقة خفيفة من التغطية ممكن تساعد في الاحتفاظ بالحرارة حول الجذور.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:45:36"
+  },
+  {
+    "date": "2025-04-24",
+    "advice_en": "Day 6: The day's warmer temperature of 21.4 °C encourages growth, so this is a good time to fertilize your tomatoes to boost their nutrient uptake. Water deeply but infrequently to promote strong root development. Watch for any stress signs from the previous cooler day.",
+    "advice_fr": "Jour 6 : La température plus chaude de 21,4 °C favorise la croissance, il est donc bon de fertiliser vos tomates pour améliorer leur absorption des nutriments. Arrosez profondément mais rarement pour favoriser le développement de racines solides. Surveillez les signes de stress provenant du jour plus frais précédent.",
+    "advice_ar": "نهار ستة: درجة حرارة النهار الأكثر سخونة هي واحد وعشرين فاصل أربعة درجة مئوية، هادشي يشجع النمو، لذا هادا هو الوقت المناسب لتسميد الطماطم ديالك باش تعزز امتصاص العناصر الغذائية. سقي بعمق ولكن بشكل غير متكرر باش تحفز تطور الجذور قوية. راقب أي علامات توتر من النهار السابق الأكتر برودة.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:46:19"
+  },
+  {
+    "date": "2025-04-25",
+    "advice_en": "Day 7: The temperature settles at 17.1 °C with light precipitation, so assess your plants’ watering needs accordingly. If the soil feels dry, water them in the morning. Continue monitoring for pests and check if the humidity levels are affecting the plant health.",
+    "advice_fr": "Jour 7 : La température se stabilise à 17,1 °C avec de légères précipitations, donc évaluez les besoins en arrosage de vos plantes en conséquence. Si le sol semble sec, arrosez-les le matin. Continuez à surveiller les ravageurs et vérifiez si les niveaux d'humidité affectent la santé des plantes.",
+    "advice_ar": "اليوم سبعة: الحرارة تستقر في سبعة عشر فاصل واحد درجة مئوية مع شوية ديال التساقطات، حيث خاصك تقيم احتياجات نباتاتك من السقاية بناءً على ذلك. إذا كانت التربة حاسّها ناشفة، سقيهم في الصباح. تابع مراقبة الحشرات و شوف واش مستويات الرطوبة كاتأثر على صحة النبات.",
+    "audioPathEn": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathAr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "audioPathFr": "/audio/speech_67e924338c5618.18616561.mp3",
+    "createdAt": "2025-04-19 14:47:02"
+  }
+]
+}

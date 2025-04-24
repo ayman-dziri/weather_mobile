@@ -1,0 +1,39 @@
+<div class="content">
+  <div class="current">
+
+    <div>
+      <div class="header">
+        <div class="current-temp-icone">
+          <span id="degre">{{temperatureDisplay}}</span>
+          <ion-icon name="{{getWeatherIconName()}}" class="{{getWeatherIconClass()}}"></ion-icon>
+        </div>
+
+        <div class="lieu">
+          <ion-icon name="location-sharp" class="location"></ion-icon>
+          <span id="ville">{{landName}}</span>
+        </div>
+      </div>
+
+      <div class="feels_notification">
+        <div class="feels">
+          <div>
+            <span id="temperature_vent">
+              {{temperatureDisplay}} / {{windSpeedDisplay}}
+            </span>
+            <i class="fa-solid fa-wind"></i>
+          </div>
+          <div>
+            <span id="temperature_temps">Feels like  {{apparentTemp}} Tod, {{getCurrentTime()}}</span>
+          </div>
+        </div>
+
+        <ion-toolbar (click)="onNotificationClick()" class="toolbar-current">
+          <ion-chip class="chip-current">
+            <ion-icon name="notifications"></ion-icon>
+            <ion-badge color="danger" class="badge-current">{{notification}}</ion-badge>
+          </ion-chip>
+        </ion-toolbar>
+      </div>
+    </div>
+  </div>
+</div>

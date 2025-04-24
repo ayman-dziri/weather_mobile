@@ -1,0 +1,256 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .card-daily{
+    margin-top: 25px;
+    .list{
+      .item-daily{
+        font-weight: lighter;
+        font-size: 0.8rem;
+        .data-notif {
+          .notif-days {
+            width: 30%;
+            .toolbar-daily {
+              width: 70%;
+              .chip-daily {
+                .icon-notif-daily {
+                  font-size: 17px;
+                }
+                .badge-daily {
+                  font-size: 0.5rem;
+                  --padding-end: 6px;
+                  --padding-start: 6px;
+                }
+              }
+            }
+            .days {
+              width: 30%;
+              text-align: center;
+              display: initial;
+              .day-full {
+                display: none;
+              }
+              .day-short {
+                display: inline;
+              }
+            }
+          }
+          .data-content {
+            justify-content: space-between;
+            .rain {
+              ion-label {
+                span:last-child {
+                  font-size: 0.5rem;
+                  margin-left: 1px;
+                }
+              }
+            }
+          }
+          .data-content > * {
+            width: 130px;
+            ion-icon {
+              font-size: 1rem;
+            }
+            ion-label {
+              margin-left: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .card-daily{
+    margin-top: 30px;
+    .list{
+      .item-daily{
+        font-weight: lighter;
+        font-size: 1rem;
+        .data-notif {
+          .notif-days {
+            width: 30%;
+            .toolbar-daily {
+              width: 60%;
+              .chip-daily {
+                .icon-notif-daily {
+                  font-size: 20px;
+                }
+                .badge-daily {
+                  font-size: 0.6rem;
+                  --padding-end: 6px;
+                  --padding-start: 6px;
+                }
+              }
+            }
+            .days {
+              width: 40%;
+              text-align: center;
+              display: initial;
+              .day-full {
+                display: none;
+              }
+              .day-short {
+                display: inline;
+              }
+            }
+          }
+          .data-content {
+            justify-content: space-between;
+            .rain {
+              ion-label {
+                span:last-child {
+                  font-size: 0.5rem;
+                  margin-left: 2px;
+                }
+              }
+            }
+          }
+          .data-content > * {
+            width: 130px;
+            ion-icon {
+              font-size: 1.3rem;
+            }
+            ion-label {
+              margin-left: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .card-daily{
+    margin-top: 40px;
+    .list{
+      .item-daily{
+        font-size: 1.4rem;
+        .data-notif {
+          .notif-days {
+            width: 30%;
+            .toolbar-daily {
+              width: 40%;
+              .chip-daily {
+                .icon-notif-daily {
+                  font-size: 22px;
+                }
+                .badge-daily {
+                  font-size: 0.8rem;
+                  width: 40%;
+                  --padding-end: 7px;
+                  --padding-start: 7px;
+                }
+              }
+            }
+            .days {
+              display: initial;
+              .day-full {
+                display: none;
+              }
+              .day-short {
+                display: inline;
+              }
+            }
+          }
+          .data-content {
+            justify-content: space-around;
+            .rain {
+              ion-label {
+                span:last-child {
+                  font-size: 0.8rem;
+                  margin-left: 3px;
+                }
+              }
+            }
+          }
+          .data-content > * {
+            width: 130px;
+            ion-icon {
+              font-size: 1.6rem;
+            }
+            ion-label {
+              margin-left: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card-daily{
+    margin-top: 50px;
+    .list{
+      .item-daily{
+        font-size: 1.6rem;
+        .data-notif {
+          .notif-days {
+            width: 30%;
+            .toolbar-daily {
+              width: 30%;
+              .chip-daily {
+                .icon-notif-daily {
+                  font-size: 28px;
+                  width: 100%;
+                }
+                .badge-daily {
+                  font-size: 0.8rem;
+                  width: 40%;
+                  --padding-end: 8px;
+                  --padding-start: 8px;
+                }
+              }
+            }
+            .days {
+              display: initial;
+              .day-full {
+                display: inline;
+              }
+              .day-short {
+                display: none;
+              }
+            }
+          }
+          .data-content {
+            justify-content: space-around;
+            .rain {
+              ion-label {
+                span:last-child {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+          .data-content > * {
+            width: 130px;
+            ion-icon {
+              font-size: 1.7rem;
+            }
+            ion-label {
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

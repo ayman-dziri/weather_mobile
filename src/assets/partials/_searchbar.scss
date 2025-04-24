@@ -1,0 +1,54 @@
+.toolbar-searchbar {
+  --background: $greenAppColor;
+  position: relative;
+  .searchBar {
+    --border-radius: 15px;
+    --ion-background-color: #F6B844;
+    --color: #3d4465;
+    --icon-color: #3d4465;
+    --placeholder-color: #3d4465;
+  }
+  .list-searchbar {
+    width: 95%;
+    margin: auto;
+    margin-top: -1px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+
+    > * {
+      width: 100%;
+      margin: auto;
+    }
+    .list-search{
+      background: white;
+      .item-search{
+        --background-hover: rgba(255, 255, 255, 0.27);
+        --color-hover: $moon-color;
+        color: $moon-color;
+        --background: white;
+      }
+    }
+  }
+  .loading-container {
+    //width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    .spinner {
+      width: 25px;
+      height: 25px;
+      color: #3d4465;
+      margin-right: 10px;
+    }
+    p {
+      margin-top: 10px;
+      color: #3d4465;
+      font-size: 0.9em;
+    }
+  }
+}

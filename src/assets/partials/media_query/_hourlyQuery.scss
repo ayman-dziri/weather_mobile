@@ -1,0 +1,160 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+    .card-hourly {
+      margin-top: 15px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+      table {
+        font-weight: lighter;
+        height: 200px;
+        font-size: 1.1rem;
+        tr {
+          td {
+            padding-left: 12px;
+            padding-right: 12px;
+            .time_day{
+              gap: 1px;
+              .moon-icon{
+                font-size: 1.5rem;
+              }
+              .yellow-icon{
+                font-size: 1.5rem;
+              }
+            }
+            .current-temp{
+              margin-left: 10px;
+            }
+            .rain-group{
+              gap: 2px;
+              .drop{
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .card-hourly {
+      margin-top: 25px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+      table {
+        font-weight: lighter;
+        height: 250px;
+        font-size: 1.3rem;
+        tr {
+          td {
+            padding-left: 15px;
+            padding-right: 15px;
+            .time_day{
+              gap: 2px;
+              .moon-icon{
+                font-size: 2rem;
+              }
+              .yellow-icon{
+                font-size: 2rem;
+              }
+            }
+            .current-temp{
+              margin-left: 12px;
+            }
+            .rain-group{
+              gap: 2px;
+              .drop{
+                font-size: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .card-hourly {
+      margin-top: 70px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+      table {
+        height: 350px;
+        font-size: 1.8rem;
+        tr {
+          td {
+            padding-left: 20px;
+            padding-right: 20px;
+            .time_day{
+              gap: 5px;
+              .moon-icon{
+                font-size: 2.5rem;
+              }
+              .yellow-icon{
+                font-size: 2.5rem;
+              }
+            }
+            .current-temp{
+              margin-left: 13px;
+            }
+            .rain-group{
+              gap: 5px;
+              .drop{
+                font-size: 2.3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card-hourly {
+      margin-top: 80px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      table {
+        height: 400px;
+        font-size: 2rem;
+        tr {
+          height: 20%;
+          td {
+            padding-left: 30px;
+            padding-right: 30px;
+            .time_day{
+              gap: 7px;
+              .moon-icon{
+                font-size: 2.8rem;
+              }
+              .yellow-icon{
+                font-size: 2.8rem;
+              }
+            }
+            .current-temp{
+              margin-left: 15px;
+            }
+            .rain-group{
+              gap: 7px;
+              .drop{
+                font-size: 2.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

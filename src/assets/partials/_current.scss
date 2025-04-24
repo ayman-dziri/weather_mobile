@@ -1,0 +1,87 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .current {
+    color: $color-text;
+    width: 80%;
+    .header {
+      .current-temp-icone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        #degre {
+          font-weight: 600;
+        }
+        .yellow-icon {
+          color: $sun-color;
+        }
+        .moon-icon{
+          color: $moon-color;
+        }
+      }
+      .current-temp-icone>*{
+        font-size: 8rem;
+      }
+      .lieu {
+        margin-top: 3.5rem;
+        .location {
+          font-size: 2.5rem;
+          color: rgba(165, 42, 42, 0.932);
+        }
+        #ville {
+          font-size: 3rem;
+          font-weight: 600;
+        }
+      }
+    }
+    .feels_notification {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .feels {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+
+        i {
+          color: rgb(212, 212, 212);
+        }
+
+        span {
+
+        }
+      }
+      .toolbar-current {
+        width: 12%;
+        --background: $greenAppColor;
+
+        .chip-current {
+          width: 80%;
+
+          .badge-current {
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(165, 42, 42, 0.932);
+            color: white;
+            border-radius: 25%;
+            font-weight: bold;
+            --padding-end: 7px;
+            --padding-start: 7px;
+          }
+
+          ion-icon {
+            color: $moon-color;
+            font-size: 28px !important;
+          }
+        }
+      }
+    }
+  }
+}

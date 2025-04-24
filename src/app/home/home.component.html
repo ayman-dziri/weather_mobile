@@ -1,0 +1,47 @@
+<ion-app class="home-app">
+
+  <ion-menu side="start" menuId="first" contentId="main-content" swipeGesture="true" backdropDismiss="true">
+    <ion-content>
+      <app-sidebar></app-sidebar>
+    </ion-content>
+  </ion-menu>
+
+  <div class="wrapper" id="main-content">
+    <app-navbar></app-navbar>
+
+    <ion-content class="content-pages" fullscreen id="scrollable-content" [scrollEvents]="true">
+
+      <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+        <ion-refresher-content
+          pullingIcon="chevron-down-circle-outline"
+          pullingText="Pull to refresh"
+          refreshingSpinner="circles"
+          refreshingText="Refreshing..."
+        >
+        </ion-refresher-content>
+      </ion-refresher>
+      <div class="nav-arrow left-arrow"
+           [class.disabled]="isFirstLand"
+           (click)="!isFirstLand && previousLand()">
+        <ion-icon name="chevron-back"></ion-icon>
+      </div>
+
+      <div class="nav-arrow right-arrow"
+           [class.disabled]="isLastLand"
+           (click)="!isLastLand && nextLand()">
+        <ion-icon name="chevron-forward"></ion-icon>
+      </div>
+
+      <div class="content-container">
+        <ion-router-outlet></ion-router-outlet>
+        <app-current id="current"></app-current>
+        <app-hourly id="hourly"></app-hourly>
+        <app-daily id="daily"></app-daily>
+        <app-sun-rise-set id="sun-rise-set"></app-sun-rise-set>
+        <app-maps id="maps"></app-maps>
+      </div>
+
+    </ion-content>
+
+  </div>
+</ion-app>

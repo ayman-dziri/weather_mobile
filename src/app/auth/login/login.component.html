@@ -1,0 +1,45 @@
+<ion-content class="login-content">
+
+  <form (ngSubmit)="login()" class="form">
+    <div class="logo_login">
+      <img src="./assets/img/img_logo.png" class="img-fluid" alt="weather">
+      <ion-label>Login</ion-label>
+    </div>
+      <ion-input class="hover-input"
+                 [(ngModel)]="email"
+                 name="email"
+                 type="email"
+                 fill="solid"
+                 label="Email"
+                 labelPlacement="floating"
+                 helperText="Enter a valid email"
+                 ngModel
+                 email
+                 [clearInput]="true"
+                 [counter]="true" maxlength="30"
+                 required>
+
+      </ion-input>
+
+
+      <ion-input class="hover-input"
+                 [(ngModel)]="password"
+                 name="password"
+                 type="password"
+                 fill="solid"
+                 label="Password"
+                 labelPlacement="floating"
+                 helperText="Password must be at least 8 characters"
+                 required>
+        <ion-input-password-toggle slot="end" class="toggle-eye"></ion-input-password-toggle>
+      </ion-input>
+
+
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+    <ion-button expand="full" type="submit" [disabled]="isLoading" class="button">
+      {{ isLoading ? 'Loading...' : 'Sign In' }}
+    </ion-button>
+    <ion-progress-bar type="indeterminate" *ngIf="isLoading"></ion-progress-bar>
+  </form>
+</ion-content>

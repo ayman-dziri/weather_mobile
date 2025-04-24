@@ -1,0 +1,45 @@
+//     *****************   petit tel   *****************
+
+@media (max-width: 320px) {
+  .notification-header {
+    .notification-toolbar {
+      .notification-span{
+        font-size: 0.5rem;
+      }
+    }
+  }
+}
+
+
+
+//     *****************   tel standard   *****************
+
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .notification-header {
+    .notification-toolbar {
+      .notification-span{
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+
+//     *****************   petite tablette   *****************
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+
+//     *****************   grande tablette   *****************
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}

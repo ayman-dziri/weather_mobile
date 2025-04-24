@@ -1,0 +1,100 @@
+.card-sun{
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 95%;
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  color: $color-text;
+  .container-sun{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .sun-time{
+      font-weight: bold;
+      text-align: center;
+      ion-label:first-child{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 2.8rem;
+      }
+      ion-label:last-child{
+        color: $moon-color;
+        font-size: 1.8rem;
+      }
+    }
+    .sunrise{
+      .sunrise-icon{
+        overflow: hidden;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgba(255, 215, 0, 1);
+      }
+    }
+    .sunset{
+      .sunset-icon{
+        overflow: hidden;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgba(255, 69, 0, 1);
+      }
+    }
+    ion-icon{
+      font-size: 8rem;
+    }
+
+    // translate
+
+    .sunrise-icon::after, .sunset-icon::after {
+      content: '';
+      bottom: 20px;
+      width: 100%;
+      height: 2px;
+      background-color: $greenAppColor;
+      z-index: 1;
+    }
+
+    .sunrise-icon ion-icon {
+      animation: sunrise 3s infinite;
+      position: relative;
+    }
+
+    .sunset-icon ion-icon {
+      animation: sunset 3s infinite;
+      position: relative;
+    }
+
+    @keyframes sunrise {
+      0% {
+        transform: translateY(70px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+    @keyframes sunset {
+      0% {
+        transform: translateY(0px);
+      }
+      100% {
+        transform: translateY(70px);
+      }
+    }
+
+
+  }
+  .container-sun>*{
+    display: flex;
+    flex-direction: column;
+    .sun-time{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

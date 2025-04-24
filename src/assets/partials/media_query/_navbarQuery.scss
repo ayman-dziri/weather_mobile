@@ -1,0 +1,85 @@
+@media (max-width: 100px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    .menu{
+      width: 100%;
+      ion-buttons {
+        ion-menu-button {
+        }
+      }
+    }
+    app-searchbar{
+      width: 100%;
+    }
+  }
+}
+
+
+//      **** lfo9 100 ****
+
+
+
+
+@media (max-width: 320px){
+  .navbar {
+    justify-content: space-between;
+    .menu{
+      width: 12%;
+      ion-buttons {
+        ion-menu-button {
+        }
+      }
+    }
+    app-searchbar{
+      width: 86%;
+    }
+  }
+}
+
+
+
+@media (min-width: 321px) and (max-width: 480px){
+  .navbar {
+    justify-content: space-between;
+    .menu{
+      width: 10%;
+      ion-buttons {
+        ion-menu-button {
+        }
+      }
+    }
+    app-searchbar{
+      width: 89%;
+    }
+  }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+  .navbar {
+    justify-content: space-between;
+    .menu{
+      width: 6%;
+      ion-buttons {
+        ion-menu-button {
+        }
+      }
+    }
+    app-searchbar{
+      width: 93%;
+    }
+  }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    justify-content: space-around;
+    .menu{
+    }
+  }
+}

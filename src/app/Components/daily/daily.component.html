@@ -1,0 +1,46 @@
+<ion-card class="card-daily">
+  <ion-list class="list">
+    <ion-item class="item-daily"
+       *ngFor="let day of dailyForecasts; let last = last"
+       button
+       [lines]="last ? 'none' : 'full'">
+
+      <div class="data-notif">
+        <div class="notif-days">
+          <ion-toolbar (click)="onNotificationClick()" class="toolbar-daily">
+            <ion-chip class="chip-daily">
+              <ion-icon name="notifications" class="icon-notif-daily"></ion-icon>
+              <ion-badge class="badge-daily">{{notification}}</ion-badge>
+            </ion-chip>
+          </ion-toolbar>
+
+          <div class="days">
+            <ion-label class="day-full">{{ day.dayName }}</ion-label>
+            <ion-label class="day-short">{{ day.dayName .slice(0, 3) }}.</ion-label>
+          </div>
+        </div>
+
+        <div class="data-content">
+          <div class="rain">
+            <ion-icon class="drop" name="water"></ion-icon>
+            <ion-label>
+              <span>{{ day.precipitation }}</span>
+              <span>mm</span>
+            </ion-label>
+          </div>
+
+          <div class="max-temp">
+            <ion-icon name="sunny"></ion-icon>
+            <ion-label>{{ day.tempMax }}°</ion-label>
+          </div>
+
+          <div class="min-temp">
+            <ion-icon name="moon"></ion-icon>
+            <ion-label>{{ day.tempMin }}°</ion-label>
+          </div>
+        </div>
+      </div>
+
+    </ion-item>
+  </ion-list>
+</ion-card>

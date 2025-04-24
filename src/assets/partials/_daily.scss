@@ -1,0 +1,103 @@
+.card-daily{
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  width: 95%;
+  background: $greenAppColor;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  color: $color-text;
+  .list{
+    background: rgba(255, 255, 255, 0.16);
+    .item-daily{
+      font-size: 1.8rem;
+      font-weight: bold;
+      --border-color: rgba(163, 163, 163, 0.21);
+      --background: rgba(255, 255, 255, 0);
+      .data-notif {
+        width: 100%;
+        display: flex;
+        .notif-days {
+          width: 35%;
+          display: flex;
+          align-items: center;
+          .toolbar-daily {
+            width: 25%;
+            --background: $greenAppColor;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .chip-daily {
+              width: 90%;
+              .icon-notif-daily {
+                color: $moon-color;
+                font-size: 28px;
+                width: 50%;
+              }
+              .badge-daily {
+                color: $color-text;
+                background-color: rgba(165, 42, 42, 0.932);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
+                width: 40%;
+                --padding-end: 10px;
+                --padding-start: 10px;
+              }
+            }
+          }
+          .days {
+            color: rgb(200, 200, 200);
+            display: initial;
+            .day-full {
+              display: inline;
+            }
+            .day-short {
+              display: none;
+            }
+          }
+        }
+        .data-content {
+          width: 70%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .rain {
+            ion-icon {
+              color: $drop-color;
+            }
+            ion-label {
+              margin-left: 0;
+              span:last-child {
+                font-size: 1.2rem;
+                margin-left: 5px;
+              }
+            }
+          }
+          .max-temp {
+            ion-icon {
+              color: $sun-color;
+            }
+          }
+          .min-temp {
+            ion-icon {
+              color: $moon-color;
+            }
+          }
+        }
+        .data-content > * {
+          width: 130px;
+          display: flex;
+          align-items: center;
+          ion-icon {
+            font-size: 1.7rem;
+          }
+          ion-label {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
